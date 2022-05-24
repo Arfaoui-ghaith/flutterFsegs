@@ -80,7 +80,7 @@ class MyNotes extends StatelessWidget {
                       child: Text('Semestre 1', style: TextStyle(color: Colors.blue, fontSize: 16.0, letterSpacing: 2.0, decoration: TextDecoration.none))
                     ),
                     SizedBox(
-                      height: 280,
+                      height: 200,
                       child: LazyDataTable(
                     rows: 7,
                     columns: 8,
@@ -100,7 +100,7 @@ class MyNotes extends StatelessWidget {
                       child: Text('Semestre 2', style: TextStyle(color: Colors.blue, fontSize: 16.0, letterSpacing: 2.0, decoration: TextDecoration.none))
                     ),
                     SizedBox(
-                      height: 280,
+                      height: 180,
                       child: LazyDataTable(
                     rows: 7,
                     columns: 8,

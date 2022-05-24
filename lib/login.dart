@@ -22,7 +22,7 @@ class Login extends StatelessWidget {
               ]
             )),
             child: Padding(
-                padding: const EdgeInsets.symmetric(vertical: 280.0, horizontal: 30.0),
+                padding: const EdgeInsets.symmetric(vertical: 40.0, horizontal: 30.0),
                 child: Container(
                   height: 50.0,
                   decoration: BoxDecoration(borderRadius: BorderRadius.circular(40), color: Colors.white),

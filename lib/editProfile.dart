@@ -9,6 +9,7 @@ class EditProfile extends StatelessWidget {
     return MaterialApp(
         title: 'Oublier mot de passe !',
         home: Scaffold( 
+          
           drawer: Drawer(
                 child: ListView(padding: EdgeInsets.zero, children: [
               const DrawerHeader(
@@ -70,12 +71,12 @@ class EditProfile extends StatelessWidget {
               ]
             )),
             child: Padding(
-                padding: const EdgeInsets.symmetric(vertical: 80.0, horizontal: 30.0),
+                padding: const EdgeInsets.symmetric(vertical: 20.0, horizontal: 30.0),
                 child: Container(
-                  height: 50.0,
+                  height: double.infinity,
                   decoration: BoxDecoration(borderRadius: BorderRadius.circular(40), color: Colors.white),
                   child: Column(children: <Widget>[
-                    const SizedBox(height: 10.0,),
+                    const SizedBox(height: 2.0,),
                     const SizedBox(
                       width: 120,
                       height: 120,
@@ -92,7 +93,7 @@ class EditProfile extends StatelessWidget {
                               style: TextStyle(color: Colors.black, decoration: TextDecoration.none, fontSize: 15.0),
                             ))
                             ),
-                    const SizedBox(height: 10.0,),
+                    const SizedBox(height: 2.0,),
                     const SizedBox(
                       width: 250,
                       height: 40,
@@ -106,7 +107,7 @@ class EditProfile extends StatelessWidget {
                           ),
                         )),
                       ),
-                    const SizedBox(height: 10.0,),
+                    const SizedBox(height: 2.0,),
                     const SizedBox(
                       width: 250,
                       height: 40,
@@ -120,7 +121,7 @@ class EditProfile extends StatelessWidget {
                           ),
                         )),
                       ),
-                    const SizedBox(height: 10.0,),
+                    const SizedBox(height: 2.0,),
                     const SizedBox(
                       width: 250,
                       height: 40,
@@ -134,7 +135,7 @@ class EditProfile extends StatelessWidget {
                           ),
                         )),
                       ),
-                    const SizedBox(height: 10.0,),
+                    const SizedBox(height: 2.0,),
                     const SizedBox(
                       width: 250,
                       height: 40,
@@ -148,7 +149,7 @@ class EditProfile extends StatelessWidget {
                           ),
                         )),
                       ),
-                    const SizedBox(height: 10.0,),
+                    const SizedBox(height: 2.0,),
                     const SizedBox(
                       width: 250,
                       height: 40,
@@ -162,7 +163,7 @@ class EditProfile extends StatelessWidget {
                           ),
                         )),
                     ),
-                    const SizedBox(height: 10.0,),
+                    const SizedBox(height: 2.0,),
                     const SizedBox(
                       width: 250,
                       height: 40,
@@ -176,7 +177,7 @@ class EditProfile extends StatelessWidget {
                           ),
                         )),
                     ),
-                    const SizedBox(height: 10.0,),
+                    const SizedBox(height: 2.0,),
                     const SizedBox(
                       width: 250,
                       height: 40,
@@ -190,7 +191,7 @@ class EditProfile extends StatelessWidget {
                           ),
                         )),
                     ),
-                    const SizedBox(height: 10.0,),
+                    const SizedBox(height: 2.0,),
                     const SizedBox(
                       width: 250,
                       height: 40,
@@ -204,7 +205,7 @@ class EditProfile extends StatelessWidget {
                           ),
                         )),
                     ),
-                    const SizedBox(height: 10.0,),       
+                    const SizedBox(height: 2.0,),       
                     SizedBox(
                     height: 40.0,
                     width: 160.0,
